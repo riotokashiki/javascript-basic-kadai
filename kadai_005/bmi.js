@@ -19,7 +19,8 @@ console.log(`height is ${weight}`);
 
 let BMI=(weight/(height*height)).toFixed(1);
 
-document.write(`your BMI is ${BMI}`);
+document.querySelector('.resultMessage').textContent=`Your BMI is ${BMI}`;
+
 console.log(BMI);
 
 
